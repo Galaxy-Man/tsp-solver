@@ -110,15 +110,15 @@ define('CSS_FILES'			, '');
 |NOTE=> if REDIRECT_URL is not defined than By default it will redirect it to the WEBSITEURL  						
 */
 
-define('WEBSITEURL'			,'http://localhost/tsp-solver/');	//ur website url
-define('WEBSITEURLINDEX'	,'http://localhost/tsp-solver/');
-define('REDIRECT_URL'		,'http://localhost/tsp-solver/');	 // url u wish to reirect to the site
+define('WEBSITEURL'			,'http://localhost/tsp-solver-master/');	//ur website url
+define('WEBSITEURLINDEX'	,'http://localhost/tsp-solver-master/');
+define('REDIRECT_URL'		,'http://localhost/tsp-solver-master/');	 // url u wish to reirect to the site
 
 //Change the Path as per your requirement
-define('IMAGE_PATH'   		,'http://localhost/tsp-solver/images/');  // url IMAGE 
-define('JS_PATH'    		,'http://localhost/tsp-solver/js/');  // url JS 
-define('CSS_PATH'   		,'http://localhost/tsp-solver/css/');  // url CSS
-define('MEDIA_PATH' ,'http://localhost/tsp-solver/'); //media path
+define('IMAGE_PATH'   		,'http://localhost/tsp-solver-master/images/');  // url IMAGE 
+define('JS_PATH'    		,'http://localhost/tsp-solver-master/js/');  // url JS 
+define('CSS_PATH'   		,'http://localhost/tsp-solver-master/css/');  // url CSS
+define('MEDIA_PATH' ,'http://localhost/tsp-solver-master/'); //media path
 
 
 define('JS_FILES_TOP'		, 'flashobject;AC_OETags;jquery/jquery.carousel');
