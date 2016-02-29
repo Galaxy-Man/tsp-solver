@@ -1,0 +1,19 @@
+.banner_title { font-size: 40px; }
+.banner_tag {  font-size: 25px; }
+
+.news_articles_wrap { float:left;  }
+
+.home_content { float:left; }
+
+.content_wrap { float:left; width:935px; }
+
+.newsletter_form { float:left; padding: 6px 0 10px; }
+
+.newsletters_listing li { height:5px; }
+
+.flipbook_wrap .flipbook_con_wrap { float:left; width:256px;}
+
+#footer_wrap { float:left; }
+
+.footer_link_wrap { float:left; width:937px; }
+.footer_link_modules { float:left; width:937px; }

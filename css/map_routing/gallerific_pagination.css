@@ -1,0 +1,45 @@
+div.content { /* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
+display:none; width: 910px !important; float: none !important; }
+div.content a, div.navigation a { text-decoration:none; color:#777; }
+div.content a:focus, div.content a:hover, div.content a:active { text-decoration:underline; }
+div.controls { overflow:hidden; padding:0 0 13px 0; }
+div.controls a { padding:0px; }
+div.controls a.next { background:url('../../images/frontend/arrow_rt.jpg') no-repeat right center; width:10px; height:18px; float:left; text-indent:-9999px; margin:0 12px 0 0; position:static; }
+div.controls a.prev { background:url('../../images/frontend/arrow_lt.jpg') no-repeat 0 center; width:10px; height:18px; float:left; text-indent:-9999px; margin:0 12px 0 0; position:static; }
+div.controls a.play { background:url('../../images/frontend/btn_play.jpg') no-repeat right center; height:18px; float:left; text-indent:0; padding:2px 22px 0 0; position:static; font-size:13px; font-weight:bold; text-transform:uppercase; }
+div.controls a.pause { background:url('../../images/frontend/btn_pause.jpg') no-repeat right center; height:18px; float:left; text-indent:0; padding:2px 22px 0 0; position:static; font-size:13px; font-weight:bold; text-transform:uppercase; }
+div.ss-controls { float:right; display:block; margin:0 8px 0 0; }
+div.nav-controls { }
+div.slideshow-container { background:url("../../images/frontend/loading.png") no-repeat scroll center center; float:left; width:395px; height:324px; text-align:center; position:relative; padding:2px; border:1px solid #DBDBDB; border-width:0 1px 1px; }
+div.loader { position: absolute; top:0; left:0; background: url('../../images/backend/chart.gif') no-repeat center center; width:234px; height:234px; }
+div.slideshow { float:left; width:390px; }
+div.slideshow span.image-wrapper { display:block; position:absolute; }
+div.slideshow a.advance-link { display:block; width:395px; height:324px; }
+div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited { text-decoration: none; }
+div.slideshow img { position:absolute; left:50%; top:50%; }
+div.download { float: right; }
+div.caption-container { position:relative; height:auto; clear:both; font-weight:bold; color: #363636; font-size:15px; background:url(../../images/frontend/faq_acc_bg.png) repeat-x; height:35px; line-height:35px; padding:0 15px; border-radius: 3px 3px 0 0; border:1px solid #DEDEDE; -webkit-box-shadow:  1px 15px 20px -16px #000; box-shadow:  1px 15px 20px -16px #000; width:369px; }
+span.image-caption { display: block; /*position:absolute; left:0; top:0; */ }
+div.caption {   }
+div.image-title {  }
+div.image-desc { padding:0 0 20px; }
+div.navigation { width:485px !important; margin:0; padding:0; position:relative; float:left; }
+ul.thumbs { clear:both; margin:0 !important; padding:0; overflow:hidden; height:342px; }
+ul.thumbs li { background:none; float:left; padding:2px; margin:0 5px 10px 0; width:150px; height:100px; list-style:none; position:relative; border:1px solid #DBDBDB; border-radius:3px; }
+a.thumb { display:block; height:100px; text-align:center; position:absolute; top:50%; left:50%; }
+ul.thumbs li span { display:none; }
+ul.thumbs li.selected { border:1px solid #6B6B6B; width:150px; height:100px; margin:0 5px 10px 0;  }
+ul.thumbs li.selected span { position:absolute; width:146px; height:96px; display:block; border:2px solid #005973; z-index:10; }
+a.thumb:focus { outline:none; }
+div.pagination { clear:both; }
+div.navigation div.top { margin:0 0 12px; height:auto; display:block; float:left; }
+div.navigation div.bottom { margin:12px 0 0; height:auto; display:block; float:left; }
+div.pagination a, div.pagination span.current, div.pagination span.ellipsis { padding:1px 5px; color:#448ccb; font-size:11px; background:#fff; border:1px solid #aeaeae; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-weight:bold; display:block; float:left; margin: 0 5px 0 0; }
+div.pagination a:hover { background:#e8e8e8; text-decoration:none; }
+div.pagination span.current { font-weight:bold; background:#e8e8e8; border:1px solid #e8e8e8; font-size:11px; color:#363636; padding:1px 5px; }
+div.pagination span.ellipsis { border:none; padding:5px 0 3px 2px; }
+
+#gallery_loader { background:url("../../images/frontend/loading.png") no-repeat scroll center center; height:60px; text-align:center; padding:150px 0 0 0; }
+#gallery_wrap { overflow:hidden; }
+.gall_big_img_wrap { float:right; width:402px; }
+.big-img-path { display:none; }

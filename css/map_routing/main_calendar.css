@@ -1,0 +1,18 @@
+.calendar .wrap, .calendar1 .wrap {width: 960px; margin: 0 auto;}
+.calendar { clear: both; width: 879px; margin: 0 auto; }
+.calendar1 {clear: both; width: 655px; margin: 15px auto 0;  }
+.calendar .fields, .calendar1 .fields {float:left;width:280px;padding: 0 10px;border: 1px solid #ccc;background:#c6cfe9;text-align: left;}
+.calendar .note, .calendar1 .note {float:left;}
+.calendar .form, .calendar1 .form { overflow:hidden; padding:30px 0 20px 10px; clear:both; }
+.calendar .form label, .calendar1 .form label { color:#333333; width:82px; padding:5px 5px 0 0; text-align:left; float:left;font-size: 14px; font-weight:bold;}
+.calendar .form input, .calendar1 .form input { border: 2px solid #9AA5CF; font-family:Arial,Helvetica,sans-serif; font-size:12px; height:23px; padding:3px; width:150px; float:left; }
+.calendar .form #submit, .calendar1 .form #submit { border:1px solid #7E8181; font-family:Arial,Helvetica,sans-serif; font-size:14px; height:31px; padding:3px; width:88px; float:left; font-weight:bold;}
+.calendar .form #reset, .calendar1 .form #reset { border:1px solid #7E8181; font-family:Arial,Helvetica,sans-serif; font-size:14px; height:31px; padding:3px; width:88px; float:left; margin:0 0 0 20px;font-weight:bold }
+.calendar .form #true, .calendar1 .form #true {border: 2px solid #9AA5CF; font-family:Arial,Helvetica,sans-serif; font-size:11px; height:22px; padding:4px; width:20px!important; float:left; margin:1px 1px 13px; }
+.calendar .form #false, .calendar1 .form #false {border: 2px solid #9AA5CF; font-family:Arial,Helvetica,sans-serif; font-size:11px; height:22px; padding:4px; width:20px!important; float:left;  margin:1px 1px 13px;}
+.calendar .start_time label, .calendar1 .start_time label {color:#333333; width:82px; padding:5px 5px 0 0; text-align:left; float:left;font-size: 14px; font-weight:bold;}
+.calendar .end_time label, .calendar1 .end_time label {color:#333333; width:82px; padding:5px 5px 0 0; text-align:left; float:left;font-size: 14px; font-weight:bold;}
+.calendar .start_time input, .calendar1 .start_time input { border: 2px solid #9AA5CF; font-family:Arial,Helvetica,sans-serif; font-size:12px; height:23px; padding:3px; width:150px; float:left; }
+.calendar .end_time input, .calendar1 .end_time input { border: 2px solid #9AA5CF; font-family:Arial,Helvetica,sans-serif; font-size:12px; height:23px; padding:3px; width:150px; float:left; }
+.calendar .end_time, .calendar1 .end_time {padding:0px;}
+.calendar .start_time, .calendar1 .start_time { padding: 1px 0 40px;}	

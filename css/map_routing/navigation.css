@@ -1,0 +1,19 @@
+/* Main Nav */
+#main_nav.sf-menu { float:left; background: url(../../images/frontend/mainnav.png) no-repeat 0 0; width:961px; margin: 0 0 0 10px; }
+#main_nav.sf-menu li { float:left; position:relative; overflow:hidden; z-index:99; }
+#main_nav.sf-menu li a { float:left; text-decoration:none; background: url(../../images/frontend/mainnav.png) no-repeat 0 0; height:52px; position:relative; transition-property:none; -webkit-transition-property:none; -moz-transition-property:none; -o-transition-property:none; }
+
+#main_nav li a.nav1 { background-position:0 0; width:52px; padding:0; border-right:1px solid #38596d;  }
+#main_nav li a.nav2 { background-position:-52px 0; padding: 0 25px; line-height:52px; font-size:16px; color: #fff; border-right:1px solid #38596d; }
+
+#main_nav li a.nav1:hover, #main_nav li a.nav1_a, #main_nav.sf-menu .sfHover a.nav1 { background-position:0 0; width:52px; padding:0; border-right:1px solid #38596d; }
+#main_nav li a.nav2:hover, #main_nav li a.nav2_a, #main_nav.sf-menu .sfHover a.nav2 { background-position:-52px 0; background:#1A363E; padding: 0 25px; line-height:52px; font-size:16px; color: #fff; border-right:1px solid #5A9DB2; }
+
+#main_nav.sf-menu li:hover ul, #main_nav.sf-menu li.sfHover ul  { left:-1px; !important; z-index:99; top:52px !important; width:280px; }
+
+#main_nav.sf-menu li ul { position:absolute; z-index:1; border:1px solid #38596d; border-width:0 1px 1px; background:#1A363E; overflow:hidden; border-radius:0 5px 5px 5px; display:none; top:52px; }
+#main_nav.sf-menu li ul li { overflow:hidden; padding:10px; }
+#main_nav.sf-menu li ul li .sub_level { } 
+#main_nav.sf-menu li ul li h3 { padding:5px 10px; }
+#main_nav.sf-menu li ul li a { background:url(../../images/frontend/arrow.png) 0 4px no-repeat; padding:0 0 0 15px; overflow:hidden; float:none; color:#89CAD9; text-decoration:none; }
+#main_nav.sf-menu li ul li a:hover { color:#fff; }

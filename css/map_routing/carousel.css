@@ -1,0 +1,218 @@
+﻿/*
+Item Name: jQuery Carousel Evolution
+Author: Mapalla
+Author URI: http://codecanyon.net/user/Mapalla
+Version: 1.0
+*/
+
+/* _______________________________________________ */
+
+/* CONTAINER */
+/* _______________________________________________ */
+
+.carousel
+{
+	position :relative ;
+	margin :0 auto;
+	width :615px;
+	height :auto;
+	border :none;
+	overflow : hidden ;
+	padding: 15px 0 0;
+}
+
+/* _______________________________________________ */
+
+/* SLIDES */
+/* _______________________________________________ */
+
+/* slide container */
+.carousel .slides
+{
+	margin :0;
+	padding :0;
+	border :none;
+	list-style :none;
+	position :relative ;
+	overflow :visible ;
+}
+
+/* slide item */
+.carousel .slides .slideItem 
+{
+	position :absolute ;
+	cursor :pointer ;
+	overflow : hidden;
+	padding :0;
+	margin :0;
+	border:1px solid #fff;	
+}
+
+.carousel .slides .slideItem a
+{
+	display: block ;
+	text-decoration :none;
+	margin :0;
+	padding :0;
+	border :none;
+	outline :none;
+}
+
+.carousel .slides .slideItem img
+{
+	margin :0;
+	padding :0;
+	border :none;
+	width :100%;
+	height :100%;
+}
+
+/* _______________________________________________ */
+
+/* DIRECTION BUTTON */
+/* _______________________________________________ */
+
+.carousel .nextButton
+{
+	position :absolute ;
+	right :10px;
+	top :102px;
+	width :16px;
+	height :26px;
+	background : url(../../images/frontend/next_prev_btn.png) no-repeat -16px 0;
+	cursor :pointer ;
+	z-index :9999;
+}
+
+.carousel .prevButton
+{
+	position :absolute;
+	left :10px;
+	top :102px;
+	width :16px;
+	height: 26px;		
+	background: url(../../images/frontend/next_prev_btn.png) no-repeat 0 0;
+	cursor :pointer;
+	z-index :9999;
+}
+
+/* _______________________________________________ */
+
+/* NAVIGATION BUTTON */
+/* _______________________________________________ */
+
+/* buttons container */
+.carousel .buttonNav
+{
+	position : relative ;
+	margin :0 auto;
+	z-index :999;
+}
+
+/* numbers */
+.carousel .buttonNav .numbers 
+{
+	position :relative ;
+	float :left ;
+	margin :5px;
+	color : #828282 ;
+	cursor :pointer ;
+	font-weight :bold ;
+	text-decoration :none;
+	font-size :1em;
+	font-family :Arial, Verdana ;
+}
+
+.carousel .buttonNav .numbers:hover
+{
+	color: #000;
+	text-decoration :underline;
+}
+
+.carousel .buttonNav .numberActive
+{
+	background : none;
+	color :#000;
+	cursor :default ;
+}
+
+/* bullets */
+.carousel .buttonNav .bullet
+{
+	position :relative ;
+	float :left ;
+	width :16px;
+	height :16px;
+	background : url(images/Bullet-White.png) no-repeat center ;
+	margin :5px;
+	float :left ;
+	cursor :pointer ;
+}
+
+.carousel .buttonNav .bullet:hover
+{
+	background : url(images/Bullet-Black.png) no-repeat center ;
+}
+
+.carousel .buttonNav .bulletActive
+{
+	background : url(images/Bullet-Black.png) no-repeat center ;
+	cursor :default ;
+}
+
+/* ____________________________________________________________ */
+
+/* VIDEO */
+/* ____________________________________________________________ */
+
+.carousel .slides .videoOverlay
+{
+	background :url(../../images/frontend/video.png) no-repeat center; /* play button */
+}
+
+.carousel .slides .spinner
+{
+	background : #000 url(../../images/frontend/loading.gif) no-repeat center; /* video preloader */
+}
+
+/* _____________________________ *
+
+/* SHADOW */
+/* _____________________________ */
+
+.carousel .shadow
+{
+	width :100%;
+	height :82px;
+}
+
+.carousel .shadow .shadowLeft
+{
+	background : url(../../images/frontend/shadowLeft.png) no-repeat;
+	width :100px;
+	height :82px;
+}
+
+.carousel .shadow .shadowMiddle
+{
+	height :82px;
+	background:url(../../images/frontend/shadowTile.png) repeat-x;
+}
+
+.carousel .shadow .shadowRight
+{
+	width :100px;
+	height :82px;
+	background:url(../../images/frontend/shadowRight.png) no-repeat;
+}
+
+/* ____________________________________________________________ */
+
+/* REFLECTION GRADIENT */
+/* ____________________________________________________________ */
+
+/* gradient color for Opera */
+.carousel .gradient
+{
+	background-image :url(scripts/gradient.svg);
+}

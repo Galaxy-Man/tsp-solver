@@ -1,0 +1,230 @@
+.jcarousel-skin-tango, .jcarousel-skin-tango .jcarousel-container { background: transparent; overflow:hidden; position:relative; margin:34px auto 0; width: 979px; }
+
+.jcarousel-skin-tango .jcarousel-container-horizontal { width: 979px;}
+
+.jcarousel-skin-tango .jcarousel-container-vertical { width: 75px; height: 245px; padding: 40px 20px; }
+
+.jcarousel-skin-tango .jcarousel-clip-vertical { width: 25px; height: 245px; }
+
+.jcarousel-skin-tango .jcarousel-item { width:295px; height:300px; padding:0px; margin:0 2px; }
+
+.jcarousel-skin-tango .jcarousel-item img { border:0px solid #DBDBDB; }
+
+.jcarousel-skin-tango .jcarousel-item-vertical { margin-bottom: 0px; }
+
+.jcarousel-skin-tango .jcarousel-item-placeholder { background: #fff; color: #000; }
+
+/* Horizontal Buttons */
+
+ .jcarousel-skin-tango .jcarousel-next-horizontal span, .jcarousel-skin-tango .jcarousel-prev-horizontal span { opacity:0; filter:alpha(opacity=0); /* For IE8 and earlier */ }
+
+.jcarousel-skin-tango .jcarousel-next-horizontal { position:absolute; top:46px; width:12px; height:17px; cursor:pointer; background:url('../../images/frontend/blue_rt_arrow.png') no-repeat right 0; right:15px; }
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover { background-position:0 0; }
+
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active { cursor: default;	opacity:0; }
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal { position:absolute; top:46px; width:12px; height:17px; cursor:pointer; background:url('../../images/frontend/blue_lt_arrow.png') no-repeat left 0; left:12px; }
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover { background-position:0 0; }
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active { cursor: default; opacity:0; }
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal { left: 41px; width:897px; }
+.jcarousel-skin-tango .jcarousel-next-horizontal span, .jcarousel-skin-tango .jcarousel-prev-horizontal span { display:none; }
+
+/* mycarousel_no is the fallback */
+.mycarousel_no_thumb { width:979px; }
+
+.mycarousel_no li{
+  margin: 0 16px 0 5px;
+  border: 0 solid #DBDBDB;
+  height: 60px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+  float: left;
+}
+
+.jcarousel-skin-tango ul { width: 979px; margin: 0 auto; overflow: hidden; padding: 0; height: 300px; }
+.jcarousel-skin-tango ul li {float: left; margin: 0 16px 20px 5px;border: 0 solid #DBDBDB; height: 300px; padding: 0; text-align: left; width: 299px; }
+
+
+/* Gallery */
+
+.jcarousel-skin-gallery .jcarousel-container {
+    background: transparent;
+		width: 899px;
+}
+
+.jcarousel-skin-gallery .jcarousel-container-horizontal {
+    width: 899px;
+		 margin: 20px 0 0;
+}
+
+.jcarousel-skin-gallery .jcarousel-container-vertical {
+    width: 75px;
+    height: 245px;
+    padding: 40px 20px;
+}
+
+.jcarousel-skin-gallery .jcarousel-clip-vertical {
+    width:  25px;
+    height: 245px;
+}
+
+.jcarousel-skin-gallery .jcarousel-item {
+    width:80px;
+    height:60px;
+		padding:2px;
+		background:none;
+		margin:0 5px;
+		border:1px solid #DEDEDE;
+		border-radius:3px;
+}
+.jcarousel-skin-gallery .jcarousel-item a {
+	display:block;
+	width:80px;
+  height:60px;
+	position:relative;
+}
+.jcarousel-skin-gallery .jcarousel-item a img {
+	top:50%;
+	left:50%;
+	position:absolute;
+}
+.jcarousel-skin-gallery .jcarousel-item img {
+	border:0px solid #DBDBDB;
+}
+
+
+.jcarousel-skin-gallery .jcarousel-item-vertical {
+    margin-bottom: 0px;
+}
+
+.jcarousel-skin-gallery .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+ .jcarousel-skin-gallery .jcarousel-next-horizontal span, .jcarousel-skin-gallery .jcarousel-prev-horizontal span { opacity:0; filter:alpha(opacity=0); /* For IE8 and earlier */ }
+
+.jcarousel-skin-gallery .jcarousel-next-horizontal 
+{
+  position:absolute; top:43%; width:12px; height:17px; cursor:pointer; background:url('../../images/frontend/blue_rt_arrow.png') no-repeat right 0; right:0; }
+
+.jcarousel-skin-gallery .jcarousel-next-horizontal:hover { background-position:0 0; }
+
+.jcarousel-skin-gallery .jcarousel-next-horizontal:active {
+  
+}
+
+.jcarousel-skin-gallery .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-gallery .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-gallery .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+		opacity:0.5;
+}
+
+.jcarousel-skin-gallery .jcarousel-prev-horizontal { position:absolute; top:43%; width:12px; height:17px; cursor:pointer; background:url('../../images/frontend/blue_lt_arrow.png') no-repeat left 0; left:0; }
+
+.jcarousel-skin-gallery .jcarousel-prev-horizontal:hover { background-position:0 0; }
+
+.jcarousel-skin-gallery .jcarousel-prev-horizontal:active {
+  
+}
+
+.jcarousel-skin-gallery .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-gallery .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-gallery .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+		opacity:0.5;
+}
+
+.jcarousel-skin-gallery .jcarousel-clip-horizontal {
+    left: 16px;
+		width:864px;
+}
+
+
+/*
+mycarousel_no is the fallback
+*/
+.mycarousel_no_thumb {  
+  width:100%;
+}
+
+/* Flipbook */
+
+.jcarousel-skin-flipbook .jcarousel-container {
+    background: transparent;
+		width: 898px;
+}
+.jcarousel-skin-flipbook .jcarousel-container-horizontal {
+    width: 898px;
+}
+
+.jcarousel-skin-flipbook .jcarousel-container-vertical {
+    width: 75px;
+    height: 245px;
+    padding: 40px 20px;
+}
+
+.jcarousel-skin-flipbook .jcarousel-clip-vertical {
+    width:  25px;
+    height: 245px;
+}
+
+.jcarousel-skin-flipbook .jcarousel-item {
+    width:100px;
+    height:100px;
+		padding:0px;
+		margin:0 11px;
+		border:1px solid #DBDBDB;
+		text-align:center;
+}
+.jcarousel-skin-flipbook .jcarousel-item img {
+	border:0px solid #DBDBDB;
+}
+.jcarousel-skin-flipbook .jcarousel-item-vertical {
+    margin-bottom: 0px;
+}
+
+.jcarousel-skin-flipbook .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+ 
+/**
+ *  Horizontal Buttons
+ */
+ .jcarousel-skin-flipbook .jcarousel-next-horizontal span, .jcarousel-skin-tango .jcarousel-prev-horizontal span { opacity:0; filter:alpha(opacity=0); /* For IE8 and earlier */ }
+
+.jcarousel-skin-flipbook .jcarousel-next-horizontal { position:absolute; top:46px; width:12px; height:17px; cursor:pointer; background:url('../../images/frontend/blue_rt_arrow.png') no-repeat right 0; right:0; }
+
+.jcarousel-skin-flipbook .jcarousel-next-horizontal:hover { background-position:0 0; }
+
+.jcarousel-skin-flipbook .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-flipbook .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-flipbook .jcarousel-next-disabled-horizontal:active { cursor: default; opacity:0.5; }
+
+.jcarousel-skin-flipbook .jcarousel-prev-horizontal { position:absolute; top:46px; width:12px; height:17px; cursor:pointer; background:url('../../images/frontend/blue_lt_arrow.png') no-repeat left 0; left:0; }
+
+.jcarousel-skin-flipbook .jcarousel-prev-horizontal:hover { background-position:0 0; }
+
+.jcarousel-skin-flipbook .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-flipbook .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-flipbook .jcarousel-prev-disabled-horizontal:active { cursor: default; opacity:0.5; }
+.jcarousel-skin-flipbook .jcarousel-clip-horizontal { width:868px; left:15px; }
+
+.jcarousel-skin-flipbook .jcarousel-next-horizontal span, .jcarousel-skin-flipbook .jcarousel-prev-horizontal span { display:none; }
+
+/* mycarousel_no is the fallback */
+.mycarousel_no_thumb { width:898px; }

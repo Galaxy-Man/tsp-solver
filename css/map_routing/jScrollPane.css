@@ -1,0 +1,82 @@
+.set_def_scoll_cart { width: 100%; height: 200px; overflow: auto; }
+.set_def_scoll_news { width: 100%; height: 265px; overflow: auto; }
+.set_def_scoll_welcome { width: 100%; height: 265px; overflow: auto; }
+.set_def_scoll_video_gal { width: 100%; height: 226px; overflow: auto; }
+.set_def_scoll_faq { width: auto !important; height: 470px; overflow: auto; }
+
+.jScrollPaneContainer {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.jScrollPaneTrack {
+	position: absolute;
+	cursor: pointer;
+	right: 0;
+	top: 0;
+	height: 100%;
+	background:url(../../images/frontend/scroll_bg.png) repeat-y 0 top;
+	width:13px !important;
+/*	padding:0 8px 0 4px;*/
+}
+.jScrollPaneDrag {
+	position: absolute;
+	/*background: none repeat scroll 0 0 #1F1E1A;*/
+	background:url(../../images/frontend/scroll_drag.png) no-repeat;
+	width:12px !important;
+	height:66px !important;
+	cursor: pointer;
+	overflow: hidden;
+	/*margin: 0 0 0 2px;*/
+	display: inline;  
+}
+.jScrollPaneDragTop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.jScrollPaneDragBottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+a.jScrollArrowUp {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	background:url(../../images/frontend/scroll_up.png) no-repeat;
+	height: 6px !important;
+	width: 13px !important;
+	padding:0  !important;
+	margin:0  !important;
+}
+a.jScrollArrowUp:hover {
+}
+
+a.jScrollArrowDown {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	height: 9px;
+	background:url(../../images/frontend/scroll_down.png) no-repeat;
+	height: 6px !important;
+	width: 13px !important;
+	padding:0  !important;
+	margin:0  !important;
+}
+a.jScrollArrowDown:hover {
+}
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+}
+.pane3{width: 400px;}

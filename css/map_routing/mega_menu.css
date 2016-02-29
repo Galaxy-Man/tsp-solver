@@ -1,0 +1,142 @@
+/* Reset code to remove theme inherent styling */
+#mega-menu ul, #mega-menu li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#mega-menu ul {
+	display: none; /* Hides non-mega links */
+}
+#mega-menu .sub ul {
+	display: block; /* overrides above hide */
+}
+/* Main menu styles */
+#mega-menu {
+	background: url(../../images/frontend/mainnav.png) no-repeat 0 0;
+	width: 100%;
+	height:52px;
+	position: relative; /* Important - required for positioning of mega menu */
+	margin: 0 0 0 11px;
+	z-index:5;
+	float: left;
+}
+#mega-menu li {
+	float:left;
+}
+
+#mega-menu li a {
+	float: left;
+	display: block;
+	padding: 16px 25px;
+	background: url(../../images/frontend/mainnavbg.jpg) repeat-x 100% 0;
+	font-size:16px;
+	color: #fff;
+	text-decoration: none;
+	transition-property:none; -webkit-transition-property:none; -moz-transition-property:none; -o-transition-property:none;
+}
+#mega-menu li a.home {
+	background: url(../../images/frontend/divider.jpg) no-repeat right top;
+	width:54px;
+	height:52px;
+	padding:0 !important;
+}
+#mega-menu li.mega-hover a, #mega-menu li a:hover {
+	background-position: 100% -52px;
+	color: #000;
+}
+/* Arrow tag for parent links */
+#mega-menu li a.dc-mega {
+	padding-right: 38px; /* Additional padding for arrow */
+	position: relative; /* Required for arrow positioning */
+}
+#mega-menu li a .dc-mega-icon {
+	display: block;
+	position: absolute;
+	top: 18px;
+	right: 15px;
+	width: 8px;
+	height: 6px;
+}
+#mega-menu li.mega-hover a .dc-mega-icon {
+	background-position: 0 100%;
+}
+/* Mega Menu Styling */
+/* Mega Drop Down Container */
+#mega-menu li .sub-container {
+	position: absolute; /* Required */
+	background: url(../../images/frontend/bg_sub_left.png) no-repeat 0 100%;
+	top: 51px;
+	padding:0 0 0 15px;
+	margin:0 0 0 7px;
+}
+#mega-menu li .sub {
+	background: url(../../images/frontend/bg_sub.png) no-repeat 100% 100%;
+	padding: 20px 20px 20px 10px;
+}
+#mega-menu li .sub-container.mega .sub {
+	padding: 20px 16px 20px 0;
+}
+#mega-menu li .sub .row { /* Clear the sub-menu floats */
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+}
+#mega-menu li .sub li {
+	float: none;
+	font-size: 1em;
+	font-weight: bold;
+}
+/* Sub-menu Headers */
+#mega-menu li .sub li.mega-hdr { /* Sub-menu headers - i.e. 2nd level navigation */
+	float: left; /* Float the sub-menus and give them a fixed width to from the mega menu rows */
+	width: 209px;
+	margin: 0 9px 20px;
+	border: 1px solid #ccc;
+}
+#mega-menu li .sub a { /* Clear the styles from the top-level links and set the font styles */
+	background: none;
+	border: none;
+	text-shadow: none;
+	color: #111;
+	padding: 7px 10px;
+	display: block;
+	float: none;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+#mega-menu li .sub li.mega-hdr a.mega-hdr-a {
+	padding: 7px 10px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+	background: #EAEAEA;
+}
+#mega-menu li .sub li.mega-hdr a.mega-hdr-a:hover {
+	color: #000;
+	text-shadow: none;
+}
+
+#mega-menu .sub li.mega-hdr li a {
+	color: #444;
+	font-weight: normal;
+	padding: 3px 0 3px 10px;
+}
+#mega-menu .sub li.mega-hdr li a:hover {
+	color: #990000;
+	background-image: url(images/bullet_on.png);
+}
+/* Styling for items with only 2 levels */
+#mega-menu li .sub-container.non-mega .sub {
+	padding: 20px 20px 20px 10px;
+}
+#mega-menu li .sub-container.non-mega li {
+	width: 190px; /* Set the drop down width */
+}
+#mega-menu li .sub-container.non-mega li a {
+	padding: 7px 5px 7px 22px;
+}
+#mega-menu li .sub-container.non-mega li a:hover {
+	color: #990000;
+}

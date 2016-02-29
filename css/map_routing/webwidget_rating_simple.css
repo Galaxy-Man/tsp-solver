@@ -1,0 +1,19 @@
+.webwidget_rating_simple{
+    padding-left: 2px;
+    margin: 0px;
+    float: left;
+}
+.webwidget_rating_simple li{
+    line-height: 0px;
+    width: 16px;
+    height: 17px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 2px;
+    list-style: none;
+    float: left;
+    cursor: pointer;
+}
+.webwidget_rating_simple li span{
+    display: none;
+}
