@@ -7,6 +7,8 @@ Used to find the shortest route using Google Maps
 
 ###### Installation ######
 Download the unzip repository and It shall create "tsp-solver-master"
+OR 
+Run git clone https://github.com/anupamoza/tsp-solver.git
 
 
 ###### Developed on ######
